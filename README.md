@@ -43,5 +43,4 @@ cudnn6.0.21
  
  
  
- ![image]https://github.com/aoxianglee/img-storags/raw/master/result_test_000233.jpg
-
+ ![image]https://github.com/aoxianglee/img-storage/blob/master/result_test_000136.jpg
