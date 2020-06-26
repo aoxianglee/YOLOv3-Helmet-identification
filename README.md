@@ -37,10 +37,5 @@ cudnn6.0.21
  * 摄像头检测 修改yolo.py 将vid = cv2.VideoCapture(video_path)注释掉，运行yolo_video.py
  ***
 ##### 检测效果  
- ![](https://github.com/aoxianglee/img-storage/blob/master/result_test_000136.jpg)  
- ![](https://github.com/aoxianglee/img-storage/blob/master/result_test_000149.jpg)  
- ![](https://github.com/aoxianglee/img-storage/blob/master/result_test_000233.jpg) 
- 
- 
- 
- ![image]https://github.com/aoxianglee/img-storage/blob/master/result_test_000136.jpg
+
+ ![image](https://github.com/aoxianglee/img-storage/blob/master/result_test_000136.jpg)
