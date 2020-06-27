@@ -16,12 +16,12 @@ cudnn6.0.21
 ##### 2.生成索引
 运行convert_to_txt.py生成索引文件存放在VOC2007\ImageSets\Main中。  
 修改voc_annotation.py文件，将classes的内容改成自己要训练的对象    
-![](https://github.com/aoxianglee/img-storage/blob/master/voc_annotation.PNG)     
+![](https://github.com/aoxianglee/img-storage/blob/master/sy.PNG)     
 运行代码后，生成三个文件"2007_test.txt", “2007_train.txt”, “2007_val.txt”，去掉前缀"2007_"，得到三个训练索引文件 
 
 ##### 3.修改配置文件    
  修改配置文件model_data 文件夹中的coco_classes.txt和voc_classes.txt，将里面的对象改成自己要训练的对象。     
- ![](https://github.com/aoxianglee/img-storage/blob/master/xiugaipeizhiwenjian.png)     
+ ![](https://github.com/aoxianglee/img-storage/blob/master/pz.png)     
  
  ##### 4.训练模型
  将model_data文件夹中的yolo.h5复制，改名为yolo_weights.h5，将其作为预训练权重。 
@@ -37,5 +37,9 @@ cudnn6.0.21
  * 摄像头检测 修改yolo.py 将vid = cv2.VideoCapture(video_path)注释掉，运行yolo_video.py
  ***
 ##### 检测效果  
+ ![](https://github.com/aoxianglee/img-storage/blob/master/jg1.jpg)  
+ ![](https://github.com/aoxianglee/img-storage/blob/master/jg2.jpg)  
+ ![](https://github.com/aoxianglee/img-storage/blob/master/jg3.jpg) 
 
- ![image](https://github.com/aoxianglee/img-storage/blob/master/result_test_000136.jpg)
+
+
